@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 
 entity LFSR is
   generic (
-    -- This 
     g_Num_Bits : integer := 24
     );
   port (
